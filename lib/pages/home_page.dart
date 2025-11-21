@@ -79,6 +79,24 @@ class HomePage extends StatelessWidget {
                                   fontWeight: FontWeight.w600,
                                 ),
                               ),
+                              SizedBox(height: 10),
+                              Row(
+                                children: [
+                                  Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        "Expiry Date",
+                                        style: TextStyle(
+                                          color: Colors.white54,
+                                          fontSize: 10,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                         ),

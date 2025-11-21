@@ -49,6 +49,8 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                         ),
+                        const Spacer(),
+                        const Icon(Icons.wifi, color: Colors.white60, size: 20),
                       ],
                     ),
                   ],

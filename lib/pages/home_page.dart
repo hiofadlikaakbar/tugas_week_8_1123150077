@@ -20,7 +20,10 @@ class HomePage extends StatelessWidget {
                 gradient: const LinearGradient(
                   begin: Alignment.topLeft,
                   end: AlignmentGeometry.bottomRight,
-                  colors: [Color(0xFF1B4770), Color(0xFF153A5E)],
+                  colors: [
+                    Color.fromARGB(255, 27, 28, 29),
+                    Color.fromARGB(255, 17, 19, 20),
+                  ],
                 ),
                 borderRadius: BorderRadius.circular(16),
                 boxShadow: [

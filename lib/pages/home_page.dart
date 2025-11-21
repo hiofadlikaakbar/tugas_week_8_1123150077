@@ -6,20 +6,21 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Latihan Card")),
+      appBar: AppBar(
+        title: const Text("Latihan Card", textAlign: TextAlign.center),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Card(
-              elevation: 8,
-              color: Colors.yellow,
-              child: Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Text(
-                  "Tinggi bayangan Shadow",
-                  style: TextStyle(fontSize: 12.0),
+            Container(
+              height: 200,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: AlignmentGeometry.bottomRight,
+                  colors: [Color(0xFF1B4770), Color(0xFF153A5E)],
                 ),
               ),
             ),

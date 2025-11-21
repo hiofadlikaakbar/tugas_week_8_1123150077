@@ -22,6 +22,14 @@ class HomePage extends StatelessWidget {
                   end: AlignmentGeometry.bottomRight,
                   colors: [Color(0xFF1B4770), Color(0xFF153A5E)],
                 ),
+                borderRadius: BorderRadius.circular(16),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black26,
+                    blurRadius: 14,
+                    offset: Offset(0, 8),
+                  ),
+                ],
               ),
             ),
           ],

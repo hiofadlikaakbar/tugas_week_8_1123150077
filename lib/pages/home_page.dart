@@ -50,6 +50,12 @@ class HomePage extends StatelessWidget {
                               color: Colors.white60,
                               width: 1.7,
                             ),
+                            gradient: const LinearGradient(
+                              begin: AlignmentGeometry.centerLeft,
+                              end: AlignmentGeometry.centerRight,
+                              colors: [Colors.white, Colors.transparent],
+                              stops: [0.5, 0.5],
+                            ),
                           ),
                         ),
                         const Spacer(),

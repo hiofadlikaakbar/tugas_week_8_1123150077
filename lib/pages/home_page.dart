@@ -7,7 +7,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Latihan Card", textAlign: TextAlign.center),
+        title: const Text("Latihan Card Membuat Kartu Kredit"),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

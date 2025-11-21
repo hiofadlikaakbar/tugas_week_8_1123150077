@@ -93,6 +93,14 @@ class HomePage extends StatelessWidget {
                                           fontSize: 10,
                                         ),
                                       ),
+                                      SizedBox(height: 4),
+                                      Text(
+                                        "24/2000",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 12,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ],

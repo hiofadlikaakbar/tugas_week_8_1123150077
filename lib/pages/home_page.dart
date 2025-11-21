@@ -53,6 +53,16 @@ class HomePage extends StatelessWidget {
                         const Icon(Icons.wifi, color: Colors.white60, size: 20),
                       ],
                     ),
+                    const Spacer(),
+                    const Text(
+                      "1887  799  8721  1082",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        letterSpacing: 2,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                   ],
                 ),
               ),

@@ -134,16 +134,29 @@ class HomePage extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Stack(
+                              clipBehavior: Clip.none,
                               alignment: Alignment.center,
                               children: [
                                 Positioned(
-                                  left: 12,
+                                  left: -10,
                                   child: CircleAvatar(
                                     radius: 12,
                                     backgroundColor: Colors.red,
                                   ),
                                 ),
+                                CircleAvatar(
+                                  radius: 12,
+                                  backgroundColor: Colors.orange,
+                                ),
                               ],
+                            ),
+                            const SizedBox(height: 8),
+                            const Text(
+                              "Mastercard",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 10,
+                              ),
                             ),
                           ],
                         ),

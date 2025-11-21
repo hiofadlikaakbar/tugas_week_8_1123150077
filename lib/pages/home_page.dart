@@ -7,10 +7,23 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Latihan Card")),
-      body: const Center(
-        child: Text(
-          "Selama datang di latihan card",
-          style: TextStyle(fontSize: 18),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Card(
+              elevation: 8,
+              color: Colors.yellow,
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Text(
+                  "Tinggi bayangan Shadow",
+                  style: TextStyle(fontSize: 12.0),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
